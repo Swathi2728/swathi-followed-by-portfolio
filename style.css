@@ -159,6 +159,30 @@ button a{
 }
 .about{
     padding-left:60px;
+    position:relative;
+}
+.ab1{
+    position:absolute;
+    font-size:6vw;
+    left:30px;
+    top:0;
+    
+    font-weight: 900;
+   
+    color:rgba(255,255,255,0.1);
+}
+.ab2{
+    position:absolute;
+    font-size:6vw;
+    left:600px;
+    top:0;
+    
+    font-weight: 900;
+   
+    color:rgba(255,255,255,0.1);
+}
+.h2p{
+    position:relative;
 }
 
 h2{
