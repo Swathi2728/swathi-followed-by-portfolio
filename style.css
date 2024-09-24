@@ -13,10 +13,7 @@
 h1,body,p{
     margin:0;
 }
-.main{
-      overflow-x: hidden; 
-   
-} 
+ 
 
 header{
     background-color: #000000;
@@ -460,7 +457,7 @@ height:250px;
 
 }
 .icon_t{
-    font-size: 20px;
+    font-size: 25px;
     color:#a3a3a3;
 }
 .ftr_icon{
@@ -510,6 +507,7 @@ height:250px;
         line-height: 1.2;
         width:300px;
     }
+   
     .container1{
         display:flex;
         padding-top:112px;
@@ -624,7 +622,7 @@ flex-direction: column;
           left:1px;
           top:0;
           bottom:1000px;
-          transition: 0.3s ease;
+          transition: 0.9s ease;
           
           
         }
