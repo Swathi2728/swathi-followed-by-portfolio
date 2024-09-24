@@ -433,6 +433,10 @@ height:250px;
     align-items: center;
     justify-content: center;
 }
+.container10{
+    display:flex;
+   
+}
 
 .bg-light{
     background-color:#f8f9fa;
