@@ -119,6 +119,10 @@ nav a:nth-child(6):hover ~.line{
     line-height: 1.2;
     height:87vh;
 }
+.container10{
+    display:flex;
+    gap:100px;
+}
 .name{
     font-size: 60px;
     margin:16px 0px 24px;
@@ -530,7 +534,14 @@ height:250px;
         padding-top:150px;
         line-height: 1.2;
         width:300px;
+    }.container10{
+        display:flex;
+        flex-wrap:wrap;
     }
+    .main{
+        overflow-x: hidden;
+    }
+    
    
     .container1{
         display:flex;
