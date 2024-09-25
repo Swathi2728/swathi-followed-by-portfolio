@@ -56,6 +56,12 @@ section {
     max-width:100%;
     padding-top: 100px;
 }
+.menu-line{
+    height:3px;
+    width:20px;
+    background-color: #ebb53d;
+    margin-bottom:3px;
+}
 nav a:hover{
     color:#ffbd39
     /* text-decoration-line: underline;
@@ -66,12 +72,13 @@ nav a:first-child{
     color:#ffbd39;
 }
 nav .line{
-  height:3px;
+  height:2\px;
   width:50px;
   background-color: #ffbd39;
   position:absolute;
   left:15px;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
+  margin-top:5px;
   
   
 }
@@ -150,6 +157,8 @@ button a{
 .container1{
     display:flex;
     padding-top:112px;
+   
+
 }
 .container2{
     display:flex;
@@ -162,6 +171,9 @@ button a{
     border-radius: 10px;
    object-fit: cover;
 }
+.img4:hover{
+transform: rotateY(180deg);
+transition-duration: 2s;}
 .about{
     padding-left:60px;
     position:relative;
@@ -265,8 +277,10 @@ p{
     background-color: #1a1a1a;
     border-radius:3px;
     width:600px;
+    
 
 }
+
 .skill_p{
 position:absolute;
 left:500px;;
@@ -283,12 +297,17 @@ left:500px;;
     height:12px;
     background-color: #ffbd39;
     border-radius:4px;
-    
-   
+    animation-name:example;
+    animation-duration: 2s;
+    animation-timing-function: linear;   
+}
+@keyframes example {
+    from{max-width: 0;};
 }
 .progress-bar{
     
-     padding:100px;
+     padding:125px;
+     padding-left:400px;
      line-height: 2.6;
      
 }
@@ -438,6 +457,7 @@ height:250px;
 .container10{
     display:flex;
    
+
 }
 
 .bg-light{
@@ -533,7 +553,10 @@ height:250px;
 .co{
     color:#999999;
 }
-@media only screen and (max-width: 768px){
+.menu{
+    display:none;
+}
+@media all and (max-width: 768px){
     /* For mobile phones: */
     .container{
         padding-left:10px;
@@ -695,7 +718,42 @@ flex-direction: column;
             width:62px;
         
         }
-    
+        .logo{
+            padding-left:10px;
+            position:relative;
+        }
+        .nav{
+            padding-right:0px;
+            text-align: center;
+            display:none;
+            
+           
+        }
+        .nav-item{
+            padding:4px;
+            display:block;
+            
+            
+        
+        }
+        .nav a{
+          
+        }
+        header{
+            display:block;
+           
+        }
+        .menu{
+            position:absolute;
+            top:10px;
+            right:10px;
+            display:block;
+        
+            
+        }
+        .showmenu{
+            display:block;
+        }
 
 
   }

@@ -21,19 +21,26 @@
             <div>
                 <h1 class="logo">SWATHI</h1>
             </div>
-            <nav>
+            <nav >
                 <div class="nav">
 
 
-                    <a href="#home" class="nav-item">Home</a>
+                    <a href="#home" class="nav-item ">Home</a>
                     <a href="#about" class="nav-item">About</a>
                     <a href="#resume" class="nav-item">Education</a>
                     <a href="#skils" class="nav-item"> My Skillls</a>
                     <a href="#project" class="nav-item">Projects</a>
                     <a href="#contact" class="nav-item">Contact</a>
                     <div class="line"></div>
+                    
                 </div>
             </nav>
+            <div class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+
+            </div>
 
         </header>
         <section id="home">
@@ -55,7 +62,7 @@
                     </button>
                 </div>
                 <div class="container9">
-                    <img src="swathi.jpeg" width="400px" height="600px">
+                    <img src="swathi.jpeg" width="400px" height="600px" class="img4">
                 </div>
             </div>
         </section>
@@ -166,7 +173,7 @@
                 </p>
             </div>
             <div class="progress-bar">
-                <div>
+                
 
 
 
@@ -213,7 +220,7 @@
 
                     </div> -->
                     </div>
-                </div>
+                
             </div>
 
         </section>
@@ -432,6 +439,14 @@
         </section>
     </div>
 </body>
+<script>
+   const menu= document.querySelector('.menu')
+   const menuList=document.querySelector('.nav')
+   menu.addEventListener('click',()=>{
+    menuList.classList.toggle('showmenu')
+   })
+
+</script>
 
 
 </html>
