@@ -32,10 +32,10 @@ header{
 .logo{
   font-size: 27px;
   font-weight: 900;
-  padding-left:200px;
+  padding-left:60px;
 }
 .nav{
-     padding-right:150px;
+     padding-right:50px;
      position:relative;
 }
 .nav-item{
@@ -53,7 +53,7 @@ section {
     width:100%;
     flex-wrap: wrap;
     max-width:100%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .menu-line{
     height:3px;
@@ -85,28 +85,43 @@ nav .nav-item:active{
     color:#ffbd39
 }
 nav a:nth-child(2):hover ~.line{
-    left:13%;
+    left:9%;
     width:60px;
 
 }
 nav a:nth-child(3):hover ~.line{
-    left:26%;
-    width:64px;
+    left:17%;
+    width:80px;
 
 }
 nav a:nth-child(4):hover ~.line{
-    left:40%;
+    left:28%;
     width:78px;
 
 }
 nav a:nth-child(5):hover ~.line{
-    left:55%;
-    width:75px;
+    left:39%;
+    width:169px;
 
 }
 nav a:nth-child(6):hover ~.line{
-    left:70%;
-    width:62px;
+    left:57%;
+    width:74px;
+
+}
+nav a:nth-child(7):hover ~.line{
+    left:67%;
+    width:73px;
+
+}
+nav a:nth-child(8):hover ~.line{
+    left:76%;
+    width:73px;
+
+}
+nav a:nth-child(9):hover ~.line{
+    left:85%;
+    width:110px;
 
 }
 /* a:active{
@@ -209,13 +224,14 @@ h2{
    
 }
 p{
-    margin:0px 0px 16px;
+    
     color:#999999;
     font-weight: 400;
 }
 .heading{
     padding-right:60px;
-    
+    font-size: 25px;
+    font-weight: 400;
 }
 .heading ul li{
     list-style-type: none;
@@ -241,10 +257,10 @@ p{
     display:grid;
     gap:20px;
     grid-template-columns: 600px 600px;
-    grid-template-rows: 290px 290px;
+   height:290px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top:150px;
+    margin-top:90px;
     
 }
 .flex-item{
@@ -260,7 +276,7 @@ p{
 }
 .skill{
     width:100%;
-    max-width:200px;
+    
     padding:0 20px;
     position:relative;
 
@@ -269,10 +285,18 @@ p{
     font-size:18px;
     font-weight:700;
     color:#f1f1f1;
+    width:200px;
     
 } 
+.intercontain1{
+    font-size:18px;
+    font-weight:700;
+    color:#f1f1f1;
+    width:200px;
+
+}
 .skill-bar{
-    height:12px;
+    height:14px;
     background-color: #1a1a1a;
     border-radius:3px;
     width:600px;
@@ -282,18 +306,21 @@ p{
 
 .skill_p{
 position:absolute;
-left:500px;;
+left:500px;
+color:#ffbd39;
 }
 .skill_p1{
     position:absolute;
-    left:430px;;
+    left:430px;
+    color:#ffbd39
     }
     .skill_p2{
         position:absolute;
-        left:230px;;
+        left:230px;
+        color:#ffbd39;
         }
 .skill-per{
-    height:12px;
+    height:14px;
     background-color: #ffbd39;
     border-radius:4px;
     animation-name:example;
@@ -308,9 +335,10 @@ left:500px;;
 }
 .progress-bar{
     
-     padding:125px;
-     padding-left:400px;
+     padding-top:70px;
+      width:700px;
      line-height: 2.6;
+
      
 }
 .span1{
@@ -442,9 +470,7 @@ height:250px;
   font-size:25px;
   
 }
-.grid-item{
- 
-}
+
 .caption{
     text-align: center;
     font-size:24px;
@@ -562,6 +588,70 @@ height:250px;
 .menu{
     display:none;
 }
+.flex123{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
+.containerforlevel{
+    display:flex;
+    gap:190px;
+    padding-left:18px;
+}
+.skillcontain{
+    margin-bottom:30px
+}
+.interncontain{
+    display:flex;
+    align-items: center;
+    gap:290px;
+}
+.interncontain1{
+    display:flex;
+    align-items: center;
+    gap:290px;
+}
+.intern{
+    color:#ffbd39
+}
+.communicationcontain{
+    display:flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:80px;
+    font-weight: 400;
+
+}
+.checked {
+    color:#ffbd39;
+  }
+.star{
+   margin-bottom:70px;
+  }
+  .speak{
+    margin-left: 55px;
+    margin-bottom: 20px;
+  }
+  .star1{
+    margin-left:110px;
+  }
+  .span123{
+    margin-left:120px;
+  }
+  .listen{
+    font-size: 40px;
+    margin-top:60px;
+    margin-left:650px;
+  }
+  .speak1{
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .ftr12{
+   color:#a3a3a3;
+   text-decoration: none;
+  }
 @media all and (max-width: 768px){
     /* For mobile phones: */
     .container{
